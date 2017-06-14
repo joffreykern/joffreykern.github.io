@@ -282,7 +282,7 @@ Now the structure of our solution is ready and we'll ``code .`` !
 
 Visual Code is a powerful code editor, but it needs some extensions to be usable in a .NET Core project. Here is a list of extensions you must have : 
 * [C# By OmniSharp](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) - Provide Syntax Highlighting, IntelliSense, Debugging, etc...
-* [Nuget Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager) - Lets you to add or remove package reference in csproj easily. Let's have a look at this extension, its page shows how to simple add a Nuget Package.
+* [Nuget Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager) - Lets you add or remove package reference in csproj easily. Let's have a look at this extension, its page shows how to simple add a Nuget Package.
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) - Add some snippets (ctor, prop, ...) and the template for a Class or an Interface.
 
 I advise to have at least C# By OmniSharp & Nuget Package Manager, because without them, it could be harder to work on a .net core project with VS Code... But it's still possible ! 
@@ -370,6 +370,6 @@ Test execution time: 1,0783 Seconds
 
 With this post, you are able to create a .net core project without Visual Studio 2017. There is few bugs on VSCode with the intellisense and few things are missing if I compare VSCode and VS'17, but well, it possible to build a .net core project in VSCode ! 
 
-I encourage you to try this editor, this is a very good editor (I used to build a whole Angular2 project and my VSCode extension). 
+I encourage you to try this editor, this is a very good editor (I used it to build a whole Angular2 project and my VSCode extension). 
 
 _If you followed the entire post, you can try to open your project on a VS'17, it'll works !_ 
