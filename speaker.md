@@ -9,17 +9,17 @@ MUG Strasbourg organized a Xamarin Dev Days in Strasbourg. I spoke about Xamarin
 
 #### September 2016 : Dotnet conf
 
-Once again, many presentation about what's new in .NET. Our part was an introduction of ASP.NET Core.
+Once again, many presentations about what's new in .NET. Our part was an introduction of ASP.NET Core.
 ![Me And Philess](https://secure.meetupstatic.com/photos/event/5/b/a/e/600_453743470.jpeg)
 
 #### April 2016 : Back from Build! and one year of MUG
 
-Many speaks about the Build!, my part was about .NET Core and the release of this new amazing framework !
+Many presentations about the Build!, my part was about .NET Core and the release of this new amazing framework !
 
 #### January 2016 : Xamarin by example
 
 This session was a live coding to go deeper in Xamarin : 
-* What are best practices to start a project in Xamarin for Android & iOs ?
+* What are the best practices to start a project in Xamarin for Android & iOs ?
 * How can I share code between Android & iOs ?
 * How can I build specific code for Android or iOs ?
 

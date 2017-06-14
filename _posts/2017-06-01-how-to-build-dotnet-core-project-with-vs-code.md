@@ -183,7 +183,7 @@ drwxr-xr-x 1 joffr 197609   0 May 31 15:40 dotnetcorevscode.Tests/
 
 ### <a name='AddprojectsreferencesontheSolutionfile'></a>Add projects references on the Solution file
 
-On Visual Studio 2017, you create your project with the GUI ``Right click > Add > Add Project > blabla`` then a project appears and the solution file is updated. The ``dotnet new`` command doesn't update the sln for you, you have to do it yourself. You can check by using ``dotnet build`` command, it'll build nothing.
+On Visual Studio 2017, you create your project with the GUI ``Right click > Add > Add Project > blabla`` then a project appears and the solution file is updated. The ``dotnet new`` command doesn't update the sln for you, you have to do it yourself. You can check by using ``dotnet build`` command, it'll wont build anything.
 
 Add a project to a solution file, you have to use ``dotnet sln`` command. I will add all projects on my solution files : 
 
@@ -201,7 +201,7 @@ $ dotnet sln dotnetcorevscode.sln add dotnetcorevscode.Tests/dotnetcorevscode.Te
 Project `dotnetcorevscode.Tests\dotnetcorevscode.Tests.csproj` added to the solution.
 ```
 
-Now my project are referenced by the solution file. If I run a ``dotnet build``, there will be a lot of errors because I didn't use a ``dotnet restore`` to download all dependencies of my solution.
+Now my projects are referenced by the solution file. If I run a ``dotnet build``, there will be a lot of errors because I didn't use a ``dotnet restore`` to download all dependencies of my solution.
 
 ```cli
 joffr@JOFFREY-LAPTOP MINGW64 /c/Projects/dotnetcore-vscode
@@ -322,7 +322,7 @@ Application started. Press Ctrl+C to shut down.
 
 ### <a name='UnittestingwithVisualCode'></a>Unit testing with Visual Code
 
-_N.B. : When I was writing this post, there were some difficulties to run unit test in VSCode, but the OmniSharp team works well and since the 25th May, we got a little feature on OmniSharp 1.10 : `MSTest support added`_
+_N.B. : While writing this post, there were some difficulties to run unit test in VSCode, but the OmniSharp team works well and since the 25th May, we got a little feature on OmniSharp 1.10 : `MSTest support added`_
 
 To run a single test on your .net project, it's very simple on VSCode, go on an UnitTest Class, and click on ``run test`` : 
 
